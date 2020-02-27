@@ -21,7 +21,7 @@
 			showFactors(num1_factors);
 			document.write("<br>",num2, " has factors that sum to ", sum2,"<br>");
 			showFactors(num2_factors);
-			if (sum1 == sum2){
+			if ((sum1 == num2) && (sum2 == num1)){
 				document.write("<br> These numbers are amicable!<br>");
 			}
 			else{
